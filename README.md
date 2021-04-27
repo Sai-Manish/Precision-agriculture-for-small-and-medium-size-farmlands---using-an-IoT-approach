@@ -1,1 +1,12 @@
-# PE_6th_sem
+# Project_elective_6th_sem
+____
+
+College: International Institute of Information Technology Bangalore
+
+Mentor professor: Professor Madhav Rao
+
+Student: Sai Manish Sasanapuri - 3rd year ECE Integrated Mtech(Btech + Mtech) 
+
+____
+
+### Yet to add files codes and report
