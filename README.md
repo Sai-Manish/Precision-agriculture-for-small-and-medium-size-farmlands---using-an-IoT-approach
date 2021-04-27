@@ -8,5 +8,6 @@ Mentor professor: Professor Madhav Rao
 Student: Sai Manish Sasanapuri - 3rd year ECE Integrated Mtech(Btech + Mtech) 
 
 ____
-
-### Yet to add files ,codes and report
+## Project Overview
+Precision agriculture for small and medium size farmlands - using an IoT approach 
+### Yet to add files ,codes, readme and report
