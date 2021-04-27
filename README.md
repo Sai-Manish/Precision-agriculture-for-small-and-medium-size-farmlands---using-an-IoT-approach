@@ -1,7 +1,7 @@
 # Project_elective_6th_sem
 ____
 
-College: International Institute of Information Technology Bangalore
+College: [International Institute of Information Technology Bangalore] (https://www.iiitb.ac.in/)
 
 Mentor professor: Professor Madhav Rao
 
