@@ -9,5 +9,19 @@ Student: Sai Manish Sasanapuri - 3rd year ECE Integrated Mtech(Btech + Mtech)
 
 ____
 ## Project Overview
-Precision agriculture for small and medium size farmlands - using an IoT approach 
-### Yet to add files ,codes, readme and report
+### Precision agriculture for small and medium size farmlands - using an IoT approach 
+#### Parameters currently measured :
+1. Soil Temperature
+2. Soil moisture content
+3. Air temperature
+4. Air Moisture content/ Humidity
+
+___
+#### Components used : 
+1. Arduino Microcontroller
+2. DHT 22
+3. Capacitive Soil Moisture Sensor
+4. Soil Temperature sensor ( DS18B20)
+5. DSRTC 3231 module
+6. HC-05 Bluetooth module
+7. Resistors
