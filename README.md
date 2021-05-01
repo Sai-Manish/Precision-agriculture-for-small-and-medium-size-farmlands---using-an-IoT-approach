@@ -26,11 +26,13 @@ ___
 6. HC-05 Bluetooth module
 7. Resistors
 
+___
 #### Configure of system :
 1. Parent device subsystem
 2. Child device subsystem
 3. Repeater subsystem
 
+___
 #### Overview of Project Implementation :
 The primary objective in this project elective is child subsystem collects sensors
 data and transmit using a wireless communication device. Presently I am using
@@ -56,12 +58,14 @@ bits. If our message packet should have only 32bits, without precision we can pa
 2 sets of data(soil temp and atmosphere temp) + 8bits(one data + 2bits can be
 used for something else) or those 8 bits can used for some encoding scheme. With
 precision, we can pack only one set of data (soil temp and atmosphere temp).
-An efficient way of sending data by reducing bits. If we know the range of
-sensor value, we can manipulate them. For example, if we know the temperature
-range varies in between (-7 to 7 from a certain value) then we can transmit just 4
-bits(offset) in place of 6 bits at the receiver side we add this certain value to that
-offset. By doing this we save 2 bits for each sensor value(without precision). By
-this method, if the payload size is 32bit we can pack 4 sets of data(soil temp +
+An efficient way of sending data by reducing bits. 
+
+If we know the range of sensor value, we can manipulate them. For example,
+if we know the temperature range varies in between (-7 to 7 from a certain value) 
+then we can transmit just 4 bits(offset) in place of 6 bits at the receiver side we add this certain value to that
+offset. By doing this we save 2 bits for each sensor value(without precision). 
+
+By this method, if the payload size is 32bit we can pack 4 sets of data(soil temp +
 atmosphere temp). The mean value for which we will be adding the offset is send
 at the start of the program so that both the receiver and transmitter are in sync
 with the values.
@@ -87,3 +91,5 @@ the user should check the values and if possible using previous data we can
 suggest what steps to follow.
 5. For further development of the project we can use data-mining and ml algorithms to suggest best crop on soil, weather conditions, and place at which the
 crop is present.
+
+___
